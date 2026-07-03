@@ -61,3 +61,11 @@ This repository uses a clean, single-repo, subdirectory layout to handle languag
 ## 📜 License:
 
 Copyright (c) 2026 Jiří Svoboda (George Freedom) / George Freedom Tech
+
+This project is licensed under:
+* Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+
+---
+
+We build for the Future!
+
