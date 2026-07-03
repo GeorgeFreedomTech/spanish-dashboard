@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Spanish Journey</title>
+    <link rel="icon" type="image/png" href="static/img/favicon.png">
+    <meta name="description" content="My Journal - Spanish language learning system.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="static/css/pico.min.css">  
+    <link rel="stylesheet" href="static/css/custom.css">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION (Aligned Right via empty ul) -->
+    <nav class="container">
+        <ul>
+            <li><a href="#" class="md-link secondary font-weight-bold" data-path="en/en_content/intro.md">Home</a></li>
+            <li><a href="#" class="secondary font-weight-bold">EN</a></li>
+            <li><a href="cz/index.html" class="secondary">CZ</a></li>
+            <li><a href="#" id="theme-toggle" class="secondary" aria-label="Toggle theme">🌙</a></li>
+        </ul>
+    </nav>
+
+    <!-- TWO COLUMN LAYOUT -->
+    <main class="container dashboard-grid">
+        
+        <!-- LEFT COLUMN: SYSTEM OVERVIEW & MD NAVIGATION -->
+        <aside class="dashboard-sidebar">
+    <div class="sidebar-sticky">
+        
+        <img class="journal-profile-img" src="static/img/profilka.jpeg" alt="Expedition Logbook Focus">
+
+        <div class="profile-header">
+            <p class="about-title">📓 About me</p>
+            <ul class="about-links">
+                <li><a href="https://dashboard.georgefreedom.com/" target="_blank">↗ Contact & Portfolio</a></li>
+            </ul>
+        </div>
+        
+        <nav class="journal-nav">
+            <p class="nav-title">📅 Learning Weeks</p>
+            <ul>
+                <li><a href="#" class="md-link" data-path="en/en_content/weeks/week1.md">Week 1</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/weeks/week2.md">Week 2</a></li>
+            </ul>
+
+            <p class="nav-title">🛠️ Survival Vocabulary</p>
+            <ul>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab1.md">I. House & Food</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab2.md">II. Commute to Kindergarten</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab3.md">III. City & Village</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab4.md">IV. Gym & Human Body</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab5.md">V. Computers & IT</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab6.md">VI. Hiking & Expeditions</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab7.md">VII. Board Games</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab8.md">VIII. Media & Music</a></li>
+                <li><a href="#" class="md-link" data-path="en/en_content/vocabulary/vocab9.md">IX. Math & Dimensions</a></li>
+            </ul>
+        </nav>
+    </div>
+</aside>
+
+        <!-- RIGHT COLUMN: DYNAMIC CONTENT AREA -->
+        <section class="dashboard-content" id="view-wrapper">
+            <div id="dynamic-content">
+                <p aria-busy="true">Loading system core...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="dashboard-footer">
+        <small>&copy; 2026 George Freedom. Built with Pico CSS & Marked.js</small>
+    </footer>
+
+    <!-- LOCAL MARKDOWN PARSER & ARCHITECTURE SCRIPT -->
+    <script src="static/js/marked.min.js"></script>
+    <script>
+        // Theme Toggle Logic
+        const toggleBtn = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        html.setAttribute('data-theme', savedTheme);
+        updateToggleIcon(savedTheme);
+
+        toggleBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateToggleIcon(newTheme);
+        });
+
+        function updateToggleIcon(theme) {
+            toggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Default Intro Path
+        const DEFAULT_INTRO = "en/en_content/intro.md";
+
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchAndRenderMarkdown(DEFAULT_INTRO);
+            
+            const defaultActive = document.querySelector(`[data-path="${DEFAULT_INTRO}"]`);
+            if (defaultActive) {
+                defaultActive.setAttribute('aria-current', 'page');
+            }
+        });
+
+        // Async Markdown Loader
+        async function fetchAndRenderMarkdown(filePath) {
+            const container = document.getElementById('dynamic-content');
+            container.innerHTML = '<p aria-busy="true">Loading journal entry...</p>';
+            
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`File not found (${response.status})`);
+                
+                const rawMarkdown = await response.text();
+                container.innerHTML = marked.parse(rawMarkdown);
+                
+                if (window.innerWidth < 992) {
+                    document.getElementById('view-wrapper').scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (error) {
+                container.innerHTML = `
+                    <article style="border-left: 4px solid var(--pico-form-element-invalid-border-color); font-family: var(--logbook-mono);">
+                        <h3>Execution Error</h3>
+                        <p>Failed to load: <code>${filePath}</code></p>
+                        <p><small>${error.message}</small></p>
+                    </article>
+                `;
+            }
+        }
+
+        // Navigation Link Trigger
+        document.querySelectorAll('.md-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                document.querySelectorAll('.md-link').forEach(l => l.removeAttribute('aria-current'));
+                
+                // If it's not the top bar Home link, set active styling
+                if (link.innerText !== "Home") {
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    const asideIntro = document.querySelector(`aside [data-path="${DEFAULT_INTRO}"]`);
+                    if (asideIntro) asideIntro.setAttribute('aria-current', 'page');
+                }
+                
+                const path = link.getAttribute('data-path');
+                fetchAndRenderMarkdown(path);
+            });
+        });
+    </script>
+</body>
+</html>

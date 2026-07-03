@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moje cesta za španělštinou</title>
+    <link rel="icon" type="image/png" href="../static/img/favicon.png">
+    <meta name="description" content="Můj deník - systémové učení španělštiny.">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/css/pico.min.css">  
+    <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+<body>
+
+    <!-- TOP NAVIGATION -->
+    <nav class="container">
+        <ul>
+            <li><a href="#" class="md-link secondary font-weight-bold" data-path="cz_content/intro.md">Domů</a></li>
+            <li><a href="../index.html" class="secondary font-weight-bold">EN</a></li>
+            <li><a href="#" class="secondary font-weight-bold">CZ</a></li>
+            <li><a href="#" id="theme-toggle" class="secondary" aria-label="Změnit téma">🌙</a></li>
+        </ul>
+    </nav>
+
+    <!-- TWO COLUMN LAYOUT -->
+    <main class="container dashboard-grid">
+        
+        <!-- LEFT COLUMN: SYSTEM OVERVIEW & MD NAVIGATION -->
+        <aside class="dashboard-sidebar">
+            <div class="sidebar-sticky">
+                
+                <img class="journal-profile-img" src="../static/img/profilka.jpeg" alt="Expedition Logbook Focus">
+
+                <div class="profile-header">
+                    <p class="about-title">📓 O mně</p>
+                    <ul class="about-links">
+                        <li><a href="https://dashboard.georgefreedom.com/" target="_blank">↗ Kontakt & Portfolio</a></li>
+                    </ul>
+                </div>
+                
+                <nav class="journal-nav">
+                    <p class="nav-title">📅 Výukový týden</p>
+                    <ul>
+                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week1.md">1. Týden</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week2.md">2. Týden</a></li>
+                    </ul>
+
+                    <p class="nav-title">🛠️ Survival slovíčka</p>
+                    <ul>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab1.md">I. Dům & Jídlo</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab2.md">II. Cesta do školky</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab3.md">III. Město & Vesnice</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab4.md">IV. Posilovna & Tělo</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab5.md">V. Počítače & IT</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab6.md">VI. Hiking & Výpravy</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab7.md">VII. Deskové hry</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab8.md">VIII. Média & Hudba</a></li>
+                        <li><a href="#" class="md-link" data-path="cz_content/vocabulary/vocab9.md">IX. Matematika & Rozměry</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <!-- RIGHT COLUMN: DYNAMIC CONTENT AREA -->
+        <section class="dashboard-content" id="view-wrapper">
+            <div id="dynamic-content">
+                <p aria-busy="true">Načítám jádro systému...</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="dashboard-footer">
+        <small>&copy; 2026 George Freedom. Vytvořeno pomocí Pico CSS & Marked.js</small>
+    </footer>
+
+    <!-- LOCAL MARKDOWN PARSER & ARCHITECTURE SCRIPT -->
+    <script src="../static/js/marked.min.js"></script>
+    <script>
+        // Theme Toggle Logic
+        const toggleBtn = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        html.setAttribute('data-theme', savedTheme);
+        updateToggleIcon(savedTheme);
+
+        toggleBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateToggleIcon(newTheme);
+        });
+
+        function updateToggleIcon(theme) {
+            toggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Default Intro Path for CZ version
+        const DEFAULT_INTRO = "cz_content/intro.md";
+
+        document.addEventListener("DOMContentLoaded", () => {
+            fetchAndRenderMarkdown(DEFAULT_INTRO);
+            
+            const defaultActive = document.querySelector(`[data-path="${DEFAULT_INTRO}"]`);
+            if (defaultActive) {
+                defaultActive.setAttribute('aria-current', 'page');
+            }
+        });
+
+        // Async Markdown Loader
+        async function fetchAndRenderMarkdown(filePath) {
+            const container = document.getElementById('dynamic-content');
+            container.innerHTML = '<p aria-busy="true">Načítám záznam z deníku...</p>';
+            
+            try {
+                const response = await fetch(filePath);
+                if (!response.ok) throw new Error(`Soubor nenalezen (${response.status})`);
+                
+                const rawMarkdown = await response.text();
+                container.innerHTML = marked.parse(rawMarkdown);
+                
+                if (window.innerWidth < 992) {
+                    document.getElementById('view-wrapper').scrollIntoView({ behavior: 'smooth' });
+                }
+            } catch (error) {
+                container.innerHTML = `
+                    <article style="border-left: 4px solid var(--pico-form-element-invalid-border-color); font-family: var(--logbook-mono);">
+                        <h3>Chyba při spuštění</h3>
+                        <p>Nepodařilo se načíst: <code>${filePath}</code></p>
+                        <p><small>${error.message}</small></p>
+                    </article>
+                `;
+            }
+        }
+
+        // Navigation Link Trigger
+        document.querySelectorAll('.md-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                document.querySelectorAll('.md-link').forEach(l => l.removeAttribute('aria-current'));
+                
+                // JS text boundary check matching Czech UI
+                if (link.innerText !== "Domů") {
+                    link.setAttribute('aria-current', 'page');
+                } else {
+                    const asideIntro = document.querySelector(`aside [data-path="${DEFAULT_INTRO}"]`);
+                    if (asideIntro) asideIntro.setAttribute('aria-current', 'page');
+                }
+                
+                const path = link.getAttribute('data-path');
+                fetchAndRenderMarkdown(path);
+            });
+        });
+    </script>
+</body>
+</html>
