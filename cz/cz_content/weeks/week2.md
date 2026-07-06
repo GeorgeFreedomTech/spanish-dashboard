@@ -8,7 +8,7 @@
 | **Út** | 0 | 0 | 0 | 0 | Mimo systém: Nemoc. |
 | **St** | 0 | 0 | 0 | 0 | Mimo systém: Nemoc. |
 | **Čt** | 0 | 0 | 0 | 0 | Mimo systém: Nemoc. |
-| **Pá** | 30 | 25 | 0 | 0 | Nepravidelné gerundium a příčestí, opakování frází (Hobbies a Opinión). Spanish podcast. |
+| **Pá** | 30 | 25 | 0 | 0 | Opakování: Nepravidelné gerundium a příčestí, opakování frází (Hobbies a Opinión). Poslech: Spanish podcast. |
 | **So** | 0 | 0 | 0 | 0 | Mimo systém: Rodinné aktivity. |
 | **Ne** | 0 | 0 | 0 | 0 | Mimo systém: Rodinné aktivity. |
 

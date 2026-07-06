@@ -1,8 +1,10 @@
 ## Actions:
 - to measure – medir
 - to calculate – calcular
-- to divide – dividir
 - to add – sumar
+- to subtract - sustraer
+- to multiply - multiplicar
+- to divide – dividir
 - to weigh – pesar
 
 # Vocabulary IX. (Mathematics and Dimensions / Matemáticas y dimensiones)

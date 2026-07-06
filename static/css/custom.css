@@ -17,6 +17,7 @@ html:not([data-theme="dark"]) {
     --pico-primary-underline: rgba(201, 111, 83, 0.4);
     --pico-card-background-color: #f7f3ed;
     --pico-border-color: #e3dacd;
+    --custom-table-header-bg: rgba(201, 111, 83, 0.05);
 }
 
 /* Dark Theme Color Palette */
@@ -28,6 +29,7 @@ html:not([data-theme="dark"]) {
     --pico-primary-underline: rgba(222, 136, 109, 0.4);
     --pico-card-background-color: #1c1512;
     --pico-border-color: #2e231f;
+    --custom-table-header-bg: #a0614d;
 }
 
 /* ==========================================================================
@@ -37,8 +39,8 @@ html:not([data-theme="dark"]) {
 /* Main text elements designed to evoke a tactile journal feel */
 body, p, li {
     font-family: var(--typewriter-font);
-    line-height: 1.2;
-    font-weight: 520;
+    line-height: 1.25;
+    font-weight: 540;
 }
 
 /* ==========================================================================
@@ -172,7 +174,7 @@ nav.container ul li a {
 
 #dynamic-content th {
     font-weight: bold;
-    background-color: rgba(201, 111, 83, 0.05);
+    background-color: var(--custom-table-header-bg);
 }
 
 /* Rendered lists alignment */

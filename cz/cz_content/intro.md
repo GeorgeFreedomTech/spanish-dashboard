@@ -24,20 +24,21 @@ Takže vytvořím přesně takový **osobní systém**. Vytvořím si **roadmapu
 ## Harmonogram
 - intenzita cca 1 - 1,5 h denně
 
-| Level | Slovíčka | čas (h) | Celkem (h) | počet týdnů |
+| Level | Slovíčka | Čas (h) | Počet týdnů | **Celkem (h)** |
 | :--- | :--- | :--- | ---: | ---: |
-| A1 (Základ) | 500 | 50-100 | 100 | 10 |
-| A2 (Přežití)| 1000 | 100-150 | 250 | 10-15 |
-| B1 (Samostatnost)| 2000 | 150-200 | 350 | 15-25 |
-| B2 (Plynulost) | 4000 | 200-300 | 600 | 20-30 |
-| **CELKEM na B2** | **>4000** |  | **>600** | **>70** |
+| A1 (Základ) | 500 | 50-100 | 10 | **100** |
+| A2 (Přežití)| 1000 | 100-150 | 10-15 | **250** |
+| B1 (Samostatnost)| 2000 | 150-200 | 15-25 | **350** |
+| B2 (Plynulost) | 4000 | 200-300 | 20-30 | **600** |
 
 ## Odměna
 | Achievement | Ověření | Reward |
 | :--- | :--- | :--- |
-| 🥉 **A2 (Survival)** | ovládnu slovíčka svého **Survival kit** a splním 3 různé online testy na level A2 | návštěva lokálního pivovaru |
-| 🥈 **B1 (Autonomy)** | rozumím odposlechnuté konverzaci, umím bez potíží konverzovat o základních a rutinních věcech | Rock / Metal koncert |
-| 🥇 **B2 (Fluency)** | zvládám plynule konverzaci s různými tématy, přečetl jsem alespoň jednu knihu | Expedice v Andách |
+| 🥉 **A2 Apprentice** | splním 3 různé online testy na level A2 | láhev dobrého vína |
+| 🥉 **A2 Disciple** | ovládnu slovíčka svého **Survival kit** | návštěva lokálního pivovaru |
+| 🥈 **B1 Adept** | rozumím odposlechnuté konverzaci | festival v Pisacu |
+| 🥈 **B1 Veteran** | umím bez potíží konverzovat o základních a rutinních věcech | Rock / Metal koncert |
+| 🥇 **B2 Master** | zvládám plynule konverzaci s různými tématy, přečetl jsem alespoň jednu knihu | Expedice v Andách |
 
 ## Systém
 Učit se budu každý den. Když to opravdu nepůjde, tak alespoň poslech nebo pár minut opakování slovíček .. prostě cokoliv.
@@ -71,4 +72,11 @@ Učit se budu každý den. Když to opravdu nepůjde, tak alespoň poslech nebo 
 | **Slovíčka VIII** | Média (knihy, filmy, seriály, hudba...) |
 | **Slovíčka IX** | Matematika a rozměry |
 
-p.s. Slovíčka svého **"Survival kitu"** jsem si přepsal do malého bločku - ať si je můžu procvičovat kdekoliv
+p.s. slovíčka svého **"Survival kitu"** jsem si přepsal do malého bločku - ať si je můžu procvičovat kdekoliv
+
+## Zlom
+Během 3. týdne vidím jasný průlom - učení se stalo běžnou součástí mého dne. Tělo si samo říká o "dávku" stejně jako v případě fyzického tréninku. Na jakoukoli novou dovednost jsou potřeba 2 týdny vytrvalosti a vědomého úsilí / vůle, ale když to vydržím, **už to jede samospádem**. 
+
+Vedení deníku a záznamů a času brutálně pomáhá - vidím, co tomu věnuji, nutí mne to myslet strategicky a plánovat. Samo zapisování času a toho, co se učím není tak důležité jako to, že si při tom uvědomím, co všechno jsem se učil a také mi to znovu "přitáhne" myšlenky k ES.
+
+**Je to to ultimátní hack a feedback!**

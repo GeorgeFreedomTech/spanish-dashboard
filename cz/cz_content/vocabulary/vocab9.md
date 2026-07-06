@@ -1,8 +1,10 @@
 ## Akce:
 - měřit – medir
 - spočítat / vypočítat – calcular
-- dělit – dividir
 - sčítat – sumar
+- odečítat - sustraer
+- násobit - multiplicar
+- dělit – dividir
 - vážit – pesar
 
 # Slovíčka IX. (Matematika a rozměry / Matemáticas y dimensiones)

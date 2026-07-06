@@ -4,6 +4,8 @@
 - programovat / kódovat – programar
 - selhat / spadnout (systém) – fallar
 - aktualizovat – actualizar
+- stáhnout (download) - descargar
+- nahrát (upload) - subir / cargar
 
 # Slovíčka V. (IT & Tech)
 připojení k internetu – la conexión a internet
@@ -73,6 +75,7 @@ výukový program / kurikulum – el programa educativo / el plan de estudios
 konfigurace – la configuración
 
 nasazení aplikace / programu – el despliegue de la aplicación / el deploy
+
 
 ### Praktické obraty a vazby:
 - Připojení k internetu pořád padá – La conexión a internet se está cayendo a cada rato

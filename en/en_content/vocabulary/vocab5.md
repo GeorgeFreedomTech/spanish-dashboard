@@ -4,6 +4,8 @@
 - to program / code – programar
 - to fail / crash – fallar
 - to update – actualizar
+- download - descargar
+- upload - subir / cargar
 
 # Vocabulary V. (IT & Tech)
 internet connection – la conexión a internet

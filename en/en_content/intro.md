@@ -25,20 +25,21 @@ So, I will build exactly that: a **personal system**. I'll map out a **roadmap**
 ## Schedule
 - Intensity: approx. 1 - 1.5 hours per day
 
-| Level | Vocabulary | Time (h) | Total (h) | Weeks |
+| Level | Vocabulary | Time (h) |  Weeks | **Total (h)** |
 | :--- | :--- | :--- | ---: | ---: |
-| A1 (Base) | 500 | 50-100 | 100 | 10 |
-| A2 (Survival)| 1000 | 100-150 | 250 | 10-15 |
-| B1 (Autonomy)| 2000 | 150-200 | 350 | 15-25 |
-| B2 (Fluency) | 4000 | 200-300 | 600 | 20-30 |
-| **TOTAL for B2** | **>4000** |  | **>600** | **>70** |
+| A1 (Base) | 500 | 50-100 | 10 | **100** |
+| A2 (Survival)| 1000 | 100-150 | 10-15 | **250** |
+| B1 (Autonomy)| 2000 | 150-200 | 15-25 | **350** |
+| B2 (Fluency) | 4000 | 200-300 | 20-30 | **600** |
 
 ## Rewards
 | Achievement | Verification | Reward |
 | :--- | :--- | :--- |
-| 🥉 **A2 (Survival)** | Learn vocabulary from my **Survival kit** and pass 3 different online proficiency tests for A2 level | A visit to a local craft brewery |
-| 🥈 **B1 (Autonomy)** | Understand overheard conversations, comfortably converse about basic and routine matters | Rock / Metal concert ticket |
-| 🥇 **B2 (Fluency)** | Fluent conversation across various topics, read at least one full book in Spanish | Trekking expedition in the Andes |
+| 🥉 **A2 Apprentice** | pass 3 different online proficiency tests for A2 level | A bottle of fine wine |
+| 🥉 **A2 Disciple** | Learn vocabulary from my **Survival kit** | A visit to a local craft brewery |
+| 🥈 **B1 Adept** | Understand overheard conversations | Festival in Pisac |
+| 🥈 **B1 Veteran** | Comfortably converse about basic and routine matters | Rock / Metal concert ticket |
+| 🥇 **B2 Master** | Fluent conversation across various topics, read at least one full book in Spanish | Trekking expedition in the Andes |
 
 ## The System
 I will study every single day. If it's really not possible due to external factors, I will at least do some passive listening or a few minutes of vocabulary review... just keep the chain unbroken.
@@ -71,4 +72,11 @@ I will study every single day. If it's really not possible due to external facto
 | **Vocab VIII** | Media (books, movies, TV series, music...) |
 | **Vocab IX** | Math and dimensions |
 
-P.S. I copied the words from my **"Survival Kit"** into a physical pocket notebook—so I can practice anywhere on the go.
+p.s. I copied the words from my **"Survival Kit"** into a physical pocket notebook—so I can practice anywhere on the go.
+
+## The Breakthrough
+During Week 3, I see a clear breakthrough—learning has become a standard part of my day. My body asks for its "dose" just like with physical training. Any new skill takes 2 weeks of persistence and conscious effort/willpower, but once you push through, **momentum takes over**.
+
+Keeping a journal and tracking time helps brutally—I see exactly what I invest, forcing me to think strategically and plan. The mere logging of time and topics isn't as important as the awareness of what I've covered, which repeatedly pulls my focus back to ES.
+
+**It's the ultimate hack and feedback loop!**

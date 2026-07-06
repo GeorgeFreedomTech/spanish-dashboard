@@ -8,7 +8,7 @@
 | **Tue** | 0 | 0 | 0 | 0 | Off-system: Sick. |
 | **Wed** | 0 | 0 | 0 | 0 | Off-system: Sick. |
 | **Thu** | 0 | 0 | 0 | 0 | Off-system: Sick. |
-| **Fri** | 30 | 25 | 0 | 0 | Irregular gerund and participle, review of phrases (Hobbies and Opinión). Spanish podcast. |
+| **Fri** | 30 | 25 | 0 | 0 | Review: Irregular gerund and participle, review of phrases (Hobbies and Opinión). Listening: Spanish podcast. |
 | **Sat** | 0 | 0 | 0 | 0 | Off-system: Family activities. |
 | **Sun** | 0 | 0 | 0 | 0 | Off-system: Family activities. |
 
