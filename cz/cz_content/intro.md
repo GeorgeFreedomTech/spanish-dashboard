@@ -34,11 +34,11 @@ Takže vytvořím přesně takový **osobní systém**. Vytvořím si **roadmapu
 ## Odměna
 | Achievement | Ověření | Reward |
 | :--- | :--- | :--- |
-| 🥉 **A2 Apprentice** | splním 3 různé online testy na level A2 | láhev dobrého vína |
-| 🥉 **A2 Disciple** | ovládnu slovíčka svého **Survival kit** | návštěva lokálního pivovaru |
-| 🥈 **B1 Adept** | rozumím odposlechnuté konverzaci | festival v Pisacu |
-| 🥈 **B1 Veteran** | umím bez potíží konverzovat o základních a rutinních věcech | Rock / Metal koncert |
-| 🥇 **B2 Master** | zvládám plynule konverzaci s různými tématy, přečetl jsem alespoň jednu knihu | Expedice v Andách |
+| 🥉 **A2 Apprentice** | Nahrát 3 min audio bez přípravy (minulost, přítomnost, budoucnost) bez záseků nad 3 vteřiny. | láhev dobrého vína |
+| 🥉 **A2 Disciple** | Cílený rozhovor na trhu / v obchodě (3–5 replik) mimo nákupní skript (dotaz na původ, recept apod.). | návštěva lokálního pivovaru |
+| 🥈 **B1 Adept** | Poslech 15 min peruánských zpráv/podcastu bez titulků a přesné zachycení hlavních bodů. | festival v Pisacu |
+| 🥈 **B1 Veteran** | Řízená 15 min debata s rodilým mluvčím o životě, práci a koníčcích v Peru vs. ČR. | Rock / Metal koncert |
+| 🥇 **B2 Master** | 20 min plynulé vysvětlení architektury kódu nebo tréninku rodilému mluvčímu + Q&A. | Expedice v Andách |
 
 ## Systém
 Učit se budu každý den. Když to opravdu nepůjde, tak alespoň poslech nebo pár minut opakování slovíček .. prostě cokoliv.

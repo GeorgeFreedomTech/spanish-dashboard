@@ -35,11 +35,11 @@ So, I will build exactly that: a **personal system**. I'll map out a **roadmap**
 ## Rewards
 | Achievement | Verification | Reward |
 | :--- | :--- | :--- |
-| 🥉 **A2 Apprentice** | pass 3 different online proficiency tests for A2 level | A bottle of fine wine |
-| 🥉 **A2 Disciple** | Learn vocabulary from my **Survival kit** | A visit to a local craft brewery |
-| 🥈 **B1 Adept** | Understand overheard conversations | Festival in Pisac |
-| 🥈 **B1 Veteran** | Comfortably converse about basic and routine matters | Rock / Metal concert ticket |
-| 🥇 **B2 Master** | Fluent conversation across various topics, read at least one full book in Spanish | Trekking expedition in the Andes |
+| 🥉 **A2 Apprentice** | Record a 3-minute unscripted audio (past, present, future) with no pauses longer than 3 seconds. | A bottle of fine wine |
+| 🥉 **A2 Disciple** | Targeted conversation at the market (3–5 turns) outside the standard shopping script (origins, recipe). | A visit to a local craft brewery |
+| 🥈 **B1 Adept** | Listen to 15 mins of Peruvian news/podcast without subtitles and accurately capture the main points. | Festival in Pisac |
+| 🥈 **B1 Veteran** | Managed 15-minute debate with a local comparing life, work, or hobbies in Peru vs. the CZ. | Rock / Metal concert ticket |
+| 🥇 **B2 Master** | 20-minute fluent explanation of software architecture or training & movement principles to a native + Q&A. | Trekking expedition in the Andes |
 
 ## The System
 I will study every single day. If it's really not possible due to external factors, I will at least do some passive listening or a few minutes of vocabulary review... just keep the chain unbroken.
