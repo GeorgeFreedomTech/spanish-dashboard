@@ -48,8 +48,8 @@ Učit se budu každý den. Když to opravdu nepůjde, tak alespoň poslech nebo 
 | Pilíř výuky | Strategie a nástroje | Poznámka |
 | :--- | :--- | :--- |
 | 🔄 **Opakování** | Slovíčka, fráze a gramatické vazby | Upevňování, zažití a plná automatizace bez přemýšlení. |
-| 🎧 **Poslech** *(Větší důraz)* | 10 min bez titulků + 10 min s titulky.<br>• Seriál *Pituca sin Lucas*<br>• YT *Simple Spanish Podcast*, *Dreaming Spanish* | Naplno navnímat přirozený rytmus, melodii a živý jazyk. |
-| 🗣️ **Mluvení** | Aktivní samomluva a simulace konverzací (popis reality: co vidím, co dělám, plány na zítra, reflexe včerejška). | Rozmluvení se, odbourání bloků a aplikace teorie v praxi. |
+| 🎧 **Poslech** *(Větší důraz)* | Podcasty, zprávy, seriály - s titulky i bez nich | Obklopit se jazykem. |
+| 🗣️ **Mluvení** | Aktivní samomluva a simulace konverzací (popis reality: co vidím, co dělám, plány na zítra, reflexe včerejška). | Trénink vybavování a používání jazyka. Přesun pasivní slovní zásoby do aktivního používání. |
 | 🚀 **Novinky** | Řízený přísun nových slovíček, gramatiky a obratů | Postupné rozšiřování aktivní slovní zásoby. |
 | 📝 **Čtení + Psaní** *(Menší důraz)* | Pasivní doplňkové aktivity | Později (při přechodu z A2 na B1). |
 

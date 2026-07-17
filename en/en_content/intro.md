@@ -49,8 +49,8 @@ I will study every single day. If it's really not possible due to external facto
 | Learning Pillar | Strategy & Tools | Operational Note |
 | :--- | :--- | :--- |
 | 🔄 **Review** | Vocabulary, phrases, and grammatical patterns | Consolidating, internalizing, and achieving full automation without thinking. |
-| 🎧 **Listening** *(High Priority)* | Protocol: 10 min without subtitles + 10 min with subtitles.<br>• TV Series: *Pituca sin Lucas*<br>• YT: *Simple Spanish Podcast*, *Dreaming Spanish* | Fully absorbing the natural rhythm, melody, and spoken pace of the living language. |
-| 🗣️ **Speaking** | Active self-talk and simulated conversations (describing reality: what I see, what I am doing, plans for tomorrow, reflection on yesterday). | Unlocking speech mechanics, breaking mental blocks, and testing theory in practice. |
+| 🎧 **Listening** *(High Priority)* | Podcasts, news, series - with subtitles and without them | Surround myself with the language. |
+| 🗣️ **Speaking** | Active self-talk and simulated conversations (describing reality: what I see, what I am doing, plans for tomorrow, reflection on yesterday). | The language use and recalling practise. Moving the pasive vocabulary into active use. |
 | 🚀 **New Material** | Structured intake of new vocabulary, grammar, and idioms | Gradual, controlled expansion of my active word base. |
 | 📝 **Reading + Writing** *(Low Priority)* | Passive complementary activities | Postponed to a later stage (transitioning from A2 to B1). |
 
