@@ -39,15 +39,13 @@
                     </ul>
                 </div>
                 
-                <nav class="journal-nav">
+                <nav class="journal-nav">              
+                    <!-- WEEK overview -->
                     <p class="nav-title">📅 Výukový týden</p>
                     <ul>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week1.md">1. Týden</a></li>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week2.md">2. Týden</a></li>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week3.md">3. Týden</a></li>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week4.md">4. Týden</a></li>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week5.md">5. Týden</a></li>
-                        <li><a href="#" class="md-link" data-path="cz_content/weeks/week6.md">6. Týden</a></li>
+                        <li>
+                            <a href="#" class="md-link" data-path="weeks.md">Přehled týdnů →</a>
+                        </li>
                     </ul>
 
                     <p class="nav-title">🛠️ Survival slovíčka</p>
@@ -158,6 +156,24 @@
                 const path = link.getAttribute('data-path');
                 fetchAndRenderMarkdown(path);
             });
+        });
+
+        // Week overview Link Trigger
+        document.getElementById('dynamic-content').addEventListener('click', (e) => {
+            const link = e.target.closest('a');
+
+            if (!link) return;
+
+            const match = link.getAttribute('href')?.match(/^#week([1-6])$/);
+
+            if (!match) return;
+
+            e.preventDefault();
+
+            const weekNumber = match[1];
+            const filePath = `cz_content/weeks/week${weekNumber}.md`;
+
+            fetchAndRenderMarkdown(filePath);
         });
     </script>
 </body>
