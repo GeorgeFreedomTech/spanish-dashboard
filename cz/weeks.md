@@ -8,3 +8,5 @@ Vyber si týden pro detilnější přehled.
 - [4. týden](#week4)
 - [5. týden](#week5)
 - [6. týden](#week6)
+- [7-18. týden](#week7-18)
+- [19. týden](#week19)

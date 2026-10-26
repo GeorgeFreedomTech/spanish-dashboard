@@ -91,7 +91,7 @@ kuchyně – la cocina
 
 jídelna – el comedor
 
-chodba – el pasadizo
+chodba – el pasadizo / el corredor
 
 sprcha – la ducha
 

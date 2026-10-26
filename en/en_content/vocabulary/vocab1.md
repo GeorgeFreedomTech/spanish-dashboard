@@ -91,7 +91,7 @@ kitchen – la cocina
 
 dining room – el comedor
 
-hallway / corridor – el pasadizo
+hallway / corridor – el pasadizo / el corredor
 
 shower – la ducha
 

@@ -166,7 +166,7 @@
 
             if (!link) return;
 
-            const match = link.getAttribute('href')?.match(/^#week([1-6])$/);
+            const match = link.getAttribute('href')?.match(/^#week([\d-]+)$/);
 
             if (!match) return;
 
